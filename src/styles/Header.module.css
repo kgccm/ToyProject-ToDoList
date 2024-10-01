@@ -1,0 +1,31 @@
+.HeaderWrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+/* 로그인 버튼 */
+.LoginButtonBox {
+  width: 302px;
+  height: 45px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.4);
+
+  /* 내부 요소 중앙정렬 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 10px;
+}
+
+.LoginButtonText {
+  font-size: 20px;
+  font-weight: bold;
+}
+.LoginButtonText:hover {
+  cursor: pointer;
+}

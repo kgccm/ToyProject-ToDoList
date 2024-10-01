@@ -1,0 +1,40 @@
+.todoItem {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 5px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.todoInput {
+  flex: 1;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.todoText {
+  flex: 1;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.saveButton,
+.editButton,
+.deleteButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.saveButton {
+  color: green;
+  font-size: 15px;
+}
+
+.deleteButton {
+  color: red;
+  font-size: 15px;
+}

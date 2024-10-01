@@ -1,0 +1,22 @@
+.FooterContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 100vw;
+  background-color: rgba(217, 217, 217, 0.65);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100; /* 다른 요소들보다 위에 표시되도록 설정 */
+}
+.FooterDeveloperInfo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.IconBox {
+  width: 48px;
+  height: 48px;
+}

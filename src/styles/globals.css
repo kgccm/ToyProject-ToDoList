@@ -1,0 +1,26 @@
+.main-page {
+  background-image: url("/images/NightSky.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden; /* 스크롤 비활성화 */
+  justify-content: space-between;
+}
+.layout-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-container {
+  display: flex;
+  justify-content: space-around; /* 요소를 가로로 배치하고 사이에 공간 분배 */
+  width: 90%;
+  gap: 50px;
+}

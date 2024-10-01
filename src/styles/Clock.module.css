@@ -1,0 +1,13 @@
+/* src/styles/Clock.module.css */
+.clockContainer {
+  height: 134px;
+  width: 586px;
+  margin-top: 29px;
+}
+
+.clock {
+  font-size: 80px; /* 시계 글자 크기 */
+  color: white; /* 글자 색상 */
+  font-weight: bold;
+  text-align: center;
+}

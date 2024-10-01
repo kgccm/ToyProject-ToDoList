@@ -1,0 +1,62 @@
+/* src/styles/Calendar.module.css */
+.calendarContainer {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid white; /* 테두리 */
+}
+
+.calendarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+
+.calendarHeader h2 {
+  margin: 0;
+}
+
+.calendarHeader button {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weekdays,
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.weekday {
+  text-align: center;
+  font-weight: bold;
+}
+
+.day {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.today {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+.selected {
+  background-color: #ff6347; /* 선택된 날짜의 색깔 변경 */
+  color: white;
+}

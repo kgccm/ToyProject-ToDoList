@@ -1,0 +1,74 @@
+.TodoSectionContainer {
+  display: flex;
+  flex-direction: column;
+  width: 701px;
+  height: 565px;
+  background-color: rgba(170, 170, 170, 0.2);
+  border-radius: 25px;
+  border: 20px solid rgba(0, 0, 0, 0.5);
+  align-items: center;
+}
+.TodoSectionTopBox {
+  margin-top: 10px;
+  height: 56px;
+  width: 100%;
+}
+.TodoSectionTopTitle {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+.TodoSectionMiddleBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 75px;
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 25px;
+  flex-shrink: 0; /* 높이가 줄어들지 않도록 설정 */
+}
+.TodoSectionMiddleText {
+  color: rgba(0, 0, 0, 1);
+  font-size: 30px;
+  font-weight: bold;
+}
+.TodoSectionItemListBox {
+  text-align: center;
+  width: 670px;
+  max-height: 400px; /* 최대 높이 설정 */
+  overflow-y: auto; /* 수직 스크롤 활성화 */
+  padding: 10px; /* 내용과 박스 사이의 여백 */
+  border-radius: 10px; /* 모서리 둥글게 (선택 사항) */
+}
+/* 스크롤바 숨기기 (크로스 브라우저 지원) */
+.TodoSectionItemListBox::-webkit-scrollbar {
+  display: none; /* 웹킷 브라우저 (Chrome, Safari)에서 스크롤바 숨김 */
+}
+
+.TodoSectionItemListBox {
+  -ms-overflow-style: none; /* 인터넷 익스플로러와 Edge에서 스크롤바 숨김 */
+  scrollbar-width: none; /* Firefox에서 스크롤바 숨김 */
+}
+.TodoSectionInputBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.TodoSectionInput {
+  width: 50%;
+  height: 30px;
+  text-align: center;
+  border-radius: 15px;
+}
+.TodoAddButton {
+  margin-left: 10px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
