@@ -35,3 +35,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # ToyProject-ToDoList
+
+노션 링크
+https://airy-shingle-578.notion.site/To-Do-List-with-Next-js-1117b74da6b58060a12ecccf609b528b
